@@ -1,7 +1,7 @@
 class BooksController < ApplicationController
-
-	def top
-	end
+# @をつけないとviewに渡せないので注意！
+def top
+end
 def new
  # viewへ渡すためのインスタンス変数にからのモデルオブジェクトを生成する
  @book = Book.new
